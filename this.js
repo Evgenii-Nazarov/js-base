@@ -22,8 +22,8 @@ const Jane = {
 // const fnJaneInfoLog = person.logInfo.bind(Jane,'doctor','+19166647246');
 // fnJaneInfoLog();
 
-// person.logInfo.bind(Jane,'doctor','+19166647246')(); //возвращает новую функцию и можно вызвать когда угодно
-// person.logInfo.call(Jane,'doctor','+19166647246'); //сразу вызывает
+person.logInfo.bind(Jane,'doctor','+19166647246')(); //возвращает новую функцию и можно вызвать когда угодно
+person.logInfo.call(Jane,'doctor','+19166647246'); //сразу вызывает
 person.logInfo.apply(Jane,['doctor','+19166647246']); //аргументы передаются в массиве, так же сразу вызывает
 
 // комбинируем контекст и прототипы
