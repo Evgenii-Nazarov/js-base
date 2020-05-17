@@ -28,15 +28,13 @@ console.log('Request data');
 // });
 //
 // p.then((data) => {
-//     return new Promise((resolve, reject) => {
+//     return new Promise((resolve, reject) => { //возвращаем промис и разрешаем его в следующем then
 //         setTimeout(() => {
 //             data.modified = true;
 //             resolve(data)
 //             // reject(data) //обработка ошибки
 //         }, 2000)
 //     });
-//
-//     // p2.then(finalData => console.log('Data received', finalData))
 // }).then(finalData => { //chain promises
 //     finalData.fromPromise = true;
 //     return finalData
