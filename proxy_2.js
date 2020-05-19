@@ -69,7 +69,7 @@ const IndexArray = new Proxy(Array, {
                 switch (prop) {
                     case 'push':
                         return item => {
-                            index[item.id] = item; //добавили к пуш кастомное дейтсвие
+                            index[item.id] = item; //добавили в пуш кастомное дейтсвие
                             arr[prop].call(arr, item) //реализовано базовое использование метода пуш
                         };
                     case 'findById':
