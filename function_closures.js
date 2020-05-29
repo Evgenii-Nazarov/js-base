@@ -69,8 +69,8 @@ function bind(context, func) {
     }
 }
 
-console.log(bind(person1, logPerson));;
-console.log(bind(person2, logPerson));;
+console.log(bind(person1, logPerson));
+console.log(bind(person2, logPerson));
 
 // получается так. Мы в аргс записали весь объект и передали в ввиде массива в apply
 
