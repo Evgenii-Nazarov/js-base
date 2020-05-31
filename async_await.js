@@ -26,12 +26,12 @@ async function fetchAsyncToDos() {
     try{
         await delay(2000);
         const response = await fetch(url);
-        const data = await response.json()
-        console.log('DATA', data)
+        const data = await response.json();
+        console.log('DATA', data);
     } catch (e) {
-        console.log(e)
+        console.log(e);
     } finally {
-        console.log('FINALLY')
+        console.log('FINALLY');
     }
 
 }
