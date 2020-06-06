@@ -11,7 +11,7 @@ const person = {
         console.log(`Name is ${this.name}`);
         console.log(`Job is ${job}`);
         console.log(`Number is ${number}`);
-        console.groupEnd()
+        console.groupEnd();
     }
 }
 
