@@ -87,7 +87,7 @@ const users = new IndexArray([
     {id: 22, name: 'Elena', job: 'Student', age: 22},
     {id: 33, name: 'Victor', job: 'Backend', age: 23},
     {id: 44, name: 'Vasilisa', job: 'Teacher', age: 24}
-])
+]);
 
 // users
 // Proxy {0: {…}, 1: {…}, 2: {…}, 3: {…}}
